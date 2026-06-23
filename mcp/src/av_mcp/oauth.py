@@ -36,6 +36,7 @@ ALLOWED_REDIRECT_HOSTS = {
     "claude.com",
     "chatgpt.com",  # ChatGPT connector callback (per-connector path)
     "chat.openai.com",
+    "manufact.com",  # https://manufact.com/oauth/callback (Manufact / mcp-use cloud connector)
 }
 LOOPBACK_HOSTS = {"localhost", "127.0.0.1", "::1"}
 
